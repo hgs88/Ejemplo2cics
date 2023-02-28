@@ -1,0 +1,1082 @@
+
+
+Walkback at 20:03:15 on 12/12/2013
+receiver must be a boolean
+[] in AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(12/12/2013 19:21:32){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+EsCompactBlockContextTemplate(Block)>>#valueWithErrorHandler:oldHandler:onReturnDo:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = [] in Block>>#when:do:exitWith:retryReturn:
+  arg2 = nil
+  arg3 = []
+EsCompactBlockContextTemplate(Block)>>#when:do:exitWith:retryReturn:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg3 = [] in Block>>#when:do:
+  arg4 = an Object
+  temp1 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp2 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp3 = nil
+EsCompactBlockContextTemplate(Block)>>#when:do:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  temp1 = an Object
+  temp2 = nil
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(12/12/2013 19:21:32){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+AvlRuntimeStartUp class(EsImageStartUp class)>>#outputWalkback:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+AvlRuntimeStartUp class>>#reportError:resumable:startBP:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  arg3 = 413
+UIProcess(Process)>>#reportError:resumable:
+  receiver = UIProcess:(12/12/2013 19:21:32){running,3}
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  temp1 = 413
+[optimized] in ExceptionalEvent class>>#initializeSystemExceptions
+  blockarg1 = Signal on Exception: (ExError) An error has occurred.
+Signal>>#evaluate:
+  receiver = Signal on Exception: (ExError) An error has occurred.
+  arg1 = [] in ExceptionalEvent class>>#initializeSystemExceptions
+ExceptionalEvent>>#applyDefaultHandler:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = Signal on Exception: (ExError) An error has occurred.
+  temp1 = Exception: (ExError) An error has occurred.
+ExceptionalEvent>>#signalWithArguments:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = ('receiver must be a boolean')
+  temp1 = Signal on Exception: (ExError) An error has occurred.
+  temp2 = nil
+ExceptionalEvent>>#signalWith:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#error:
+  receiver = nil
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#mustBeBoolean
+  receiver = nil
+VDEEditPartView>>#openMapEditorOn:
+  receiver = a VDEEditPartView
+  arg1 = (proxy avlName: MGRUP11->MGRUP10)
+  temp1 = nil
+  temp2 = a HptMapMainView
+[] in VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  blockarg1 = (proxy avlName: MGRUP11->MGRUP10)
+OrderedCollection>>#do:
+  receiver = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+  arg1 = [] in VDEEditPartView>>#openEditorsOnConfirmed:
+VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  arg1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+VDEEditPartView>>#defaultActionRequested:
+  receiver = a VDEEditPartView
+  arg1 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+  temp2 = nil
+DirectedMessage>>#abrSendWithArguments:
+  receiver = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  temp1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+[] in AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  blockarg1 = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+OrderedCollection>>#do:
+  receiver = OrderedCollection(DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil)) )
+  arg1 = [] in AbtDependentsCollection>>#signalEventWithArguments:
+AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:withArguments:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:with:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+AbtContainerIconTreeView>>#defaultAction:clientData:callData:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an EwIconTree
+  arg2 = nil
+  arg3 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = an EwIconTree
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+EwIconTree(EwList)>>#callCallbackList:callData:
+  receiver = an EwIconTree
+  arg1 = OrderedCollection(a CwCallbackRec )
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+  temp2 = 1
+  temp3 = nil
+  temp4 = nil
+  temp5 = nil
+  temp6 = nil
+EwIconTree(EwList)>>#defaultActionEvent
+  receiver = an EwIconTree
+EwExtendedRangeSelectionMapper(EwSelectionMapper)>>#processButton1DoubleClick
+  receiver = an EwExtendedRangeSelectionMapper
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonDoubleClick:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonPress:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processInputEvent:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+EwIconTree(EwList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+EwIconTree(EwContainerList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+EwIconTree>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+CwDrawingArea(CwBasicWidget)>>#callCallbackList:callData:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+  arg2 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+  temp1 = nil
+  temp2 = 3
+  temp3 = a CwCallbackRec
+  temp4 = a CwCallbackRec
+  temp5 = a CwCallbackRec
+CwDrawingArea(CwBasicWidget)>>#callHandlersFor:with:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = 4
+  arg2 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+  temp1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+CwDrawingArea(CwBasicWidget)>>#callButton1Down:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = an OSInput
+  temp1 = CwButtonEvent[84,87] state=0 time=17941472 button=1
+OSComposite(OSWidget)>>#callHandlers:with:
+  receiver = OSComposite()
+  arg1 = #callButton1Down:
+  arg2 = an OSInput
+DirectedMessage>>#send
+  receiver = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSEventManager class>>#runDeferredMessages
+  receiver = OSEventManager
+  temp1 = true
+  temp2 = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSWidget class>>#readAndDispatch
+  receiver = OSWidget
+  temp1 = true
+  temp2 = true
+CwAppContext>>#readAndDispatch
+  receiver = a CwAppContext
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#messageLoop
+  receiver = AvlRuntimeStartUp
+  temp1 = 17941440
+  temp2 = a CwAppContext
+[optimized] in UIProcess class>>#forkUserInterface
+[] in UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(12/12/2013 19:21:32){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(12/12/2013 19:21:32){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#newProcessOn:stackSize:withArguments:named:
+  receiver = UIProcess:(12/12/2013 19:21:32){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = 1024
+  arg3 = ()
+  arg4 = '(12/12/2013 19:21:32)'
+
+
+Walkback at 10:57:46 on 13/12/2013
+UndefinedObject does not understand setForeground:
+[] in AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'UndefinedObject does not understand setForeground:'
+  arg2 = UIProcess:(13/12/2013 10:57:46){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+EsCompactBlockContextTemplate(Block)>>#valueWithErrorHandler:oldHandler:onReturnDo:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = [] in Block>>#when:do:exitWith:retryReturn:
+  arg2 = nil
+  arg3 = []
+EsCompactBlockContextTemplate(Block)>>#when:do:exitWith:retryReturn:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg3 = [] in Block>>#when:do:
+  arg4 = an Object
+  temp1 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp2 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp3 = nil
+EsCompactBlockContextTemplate(Block)>>#when:do:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  temp1 = an Object
+  temp2 = nil
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'UndefinedObject does not understand setForeground:'
+  arg2 = UIProcess:(13/12/2013 10:57:46){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+AvlRuntimeStartUp class(EsImageStartUp class)>>#outputWalkback:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'UndefinedObject does not understand setForeground:'
+AvlRuntimeStartUp class>>#reportError:resumable:startBP:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'UndefinedObject does not understand setForeground:'
+  arg2 = false
+  arg3 = 232
+UIProcess(Process)>>#reportError:resumable:
+  receiver = UIProcess:(13/12/2013 10:57:46){running,3}
+  arg1 = 'UndefinedObject does not understand setForeground:'
+  arg2 = false
+  temp1 = 232
+[optimized] in ExceptionalEvent class>>#initializeSystemExceptions
+  blockarg1 = Signal on Exception: (ExError) An error has occurred.
+Signal>>#evaluate:
+  receiver = Signal on Exception: (ExError) An error has occurred.
+  arg1 = [] in ExceptionalEvent class>>#initializeSystemExceptions
+ExceptionalEvent>>#applyDefaultHandler:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = Signal on Exception: (ExError) An error has occurred.
+  temp1 = Exception: (ExError) An error has occurred.
+ExceptionalEvent>>#signalWithArguments:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = ('UndefinedObject does not understand setForeground:')
+  temp1 = Signal on Exception: (ExError) An error has occurred.
+  temp2 = nil
+ExceptionalEvent>>#signalWith:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = 'UndefinedObject does not understand setForeground:'
+UndefinedObject(Object)>>#error:
+  receiver = nil
+  arg1 = 'UndefinedObject does not understand setForeground:'
+UndefinedObject(Object)>>#doesNotUnderstand:
+  receiver = nil
+  arg1 = Message (#setForeground:, (nil))
+EwIconTree(EwList)>>#setGCForCursoredEmphasis
+  receiver = an EwIconTree
+EwIconTree(EwList)>>#drawCursoredEmphasisAtX:y:width:height:
+  receiver = an EwIconTree
+  arg1 = 0
+  arg2 = 0
+  arg3 = 100
+  arg4 = 36
+EwIconTree(EwContainerList)>>#drawEmptyListCursoredEmphasis
+  receiver = an EwIconTree
+EwIconTree(EwLinearList)>>#drawCursoredEmphasisAt:
+  receiver = an EwIconTree
+  arg1 = 1
+EwIconTree(EwLinearList)>>#drawCursoredEmphasis
+  receiver = an EwIconTree
+EwIconTree(EwIconList)>>#gettingFocus:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(focusProxy)
+  arg2 = nil
+  arg3 = CwAnyCallbackData(
+    reason -> 18
+)
+  temp1 = false
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = CwDrawingArea(focusProxy)
+  arg2 = CwAnyCallbackData(
+    reason -> 18
+)
+CwDrawingArea(CwBasicWidget)>>#callCallbackList:callData:
+  receiver = CwDrawingArea(focusProxy)
+  arg1 = OrderedCollection(a CwCallbackRec )
+  arg2 = CwAnyCallbackData(
+    reason -> 18
+)
+  temp1 = nil
+  temp2 = 1
+  temp3 = nil
+  temp4 = nil
+  temp5 = nil
+CwDrawingArea(CwComposite)>>#callFocusCallback:
+  receiver = CwDrawingArea(focusProxy)
+  arg1 = an OSEvent
+  temp1 = CwAnyCallbackData(
+    reason -> 18
+)
+OSComposite(OSWidget)>>#callHandlers:with:
+  receiver = OSComposite()
+  arg1 = #callFocusCallback:
+  arg2 = an OSEvent
+DirectedMessage>>#send
+  receiver = DirectedMessage (OSComposite(), #callHandlers:with:, (#callFocusCallback: an OSEvent))
+OSEventManager class>>#runDeferredMessages
+  receiver = OSEventManager
+  temp1 = true
+  temp2 = DirectedMessage (OSComposite(), #callHandlers:with:, (#callFocusCallback: an OSEvent))
+OSWidget class>>#readAndDispatch
+  receiver = OSWidget
+  temp1 = true
+  temp2 = true
+CwAppContext>>#readAndDispatch
+  receiver = a CwAppContext
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#messageLoop
+  receiver = AvlRuntimeStartUp
+  temp1 = nil
+  temp2 = a CwAppContext
+[optimized] in UIProcess class>>#forkUserInterface
+[] in UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(13/12/2013 10:57:46){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(13/12/2013 10:57:46){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#newProcessOn:stackSize:withArguments:named:
+  receiver = UIProcess:(13/12/2013 10:57:46){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = 1024
+  arg3 = ()
+  arg4 = '(13/12/2013 10:57:46)'
+
+
+Walkback at 13:52:03 on 13/12/2013
+receiver must be a boolean
+[] in AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(13/12/2013 10:58:07){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+EsCompactBlockContextTemplate(Block)>>#valueWithErrorHandler:oldHandler:onReturnDo:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = [] in Block>>#when:do:exitWith:retryReturn:
+  arg2 = nil
+  arg3 = []
+EsCompactBlockContextTemplate(Block)>>#when:do:exitWith:retryReturn:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg3 = [] in Block>>#when:do:
+  arg4 = an Object
+  temp1 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp2 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp3 = nil
+EsCompactBlockContextTemplate(Block)>>#when:do:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  temp1 = an Object
+  temp2 = nil
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(13/12/2013 10:58:07){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+AvlRuntimeStartUp class(EsImageStartUp class)>>#outputWalkback:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+AvlRuntimeStartUp class>>#reportError:resumable:startBP:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  arg3 = 413
+UIProcess(Process)>>#reportError:resumable:
+  receiver = UIProcess:(13/12/2013 10:58:07){running,3}
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  temp1 = 413
+[optimized] in ExceptionalEvent class>>#initializeSystemExceptions
+  blockarg1 = Signal on Exception: (ExError) An error has occurred.
+Signal>>#evaluate:
+  receiver = Signal on Exception: (ExError) An error has occurred.
+  arg1 = [] in ExceptionalEvent class>>#initializeSystemExceptions
+ExceptionalEvent>>#applyDefaultHandler:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = Signal on Exception: (ExError) An error has occurred.
+  temp1 = Exception: (ExError) An error has occurred.
+ExceptionalEvent>>#signalWithArguments:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = ('receiver must be a boolean')
+  temp1 = Signal on Exception: (ExError) An error has occurred.
+  temp2 = nil
+ExceptionalEvent>>#signalWith:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#error:
+  receiver = nil
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#mustBeBoolean
+  receiver = nil
+VDEEditPartView>>#openMapEditorOn:
+  receiver = a VDEEditPartView
+  arg1 = (proxy avlName: MGRUP11->MGRUP10)
+  temp1 = nil
+  temp2 = a HptMapMainView
+[] in VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  blockarg1 = (proxy avlName: MGRUP11->MGRUP10)
+OrderedCollection>>#do:
+  receiver = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+  arg1 = [] in VDEEditPartView>>#openEditorsOnConfirmed:
+VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  arg1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+VDEEditPartView>>#defaultActionRequested:
+  receiver = a VDEEditPartView
+  arg1 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP10) )
+  temp2 = nil
+DirectedMessage>>#abrSendWithArguments:
+  receiver = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  temp1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+[] in AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  blockarg1 = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+OrderedCollection>>#do:
+  receiver = OrderedCollection(DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil)) )
+  arg1 = [] in AbtDependentsCollection>>#signalEventWithArguments:
+AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:withArguments:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:with:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+AbtContainerIconTreeView>>#defaultAction:clientData:callData:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an EwIconTree
+  arg2 = nil
+  arg3 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = an EwIconTree
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+EwIconTree(EwList)>>#callCallbackList:callData:
+  receiver = an EwIconTree
+  arg1 = OrderedCollection(a CwCallbackRec )
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP10)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+  temp2 = 1
+  temp3 = nil
+  temp4 = nil
+  temp5 = nil
+  temp6 = nil
+EwIconTree(EwList)>>#defaultActionEvent
+  receiver = an EwIconTree
+EwExtendedRangeSelectionMapper(EwSelectionMapper)>>#processButton1DoubleClick
+  receiver = an EwExtendedRangeSelectionMapper
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonDoubleClick:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonPress:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processInputEvent:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+EwIconTree(EwList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+EwIconTree(EwContainerList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+EwIconTree>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+CwDrawingArea(CwBasicWidget)>>#callCallbackList:callData:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+  arg2 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+  temp1 = nil
+  temp2 = 3
+  temp3 = a CwCallbackRec
+  temp4 = a CwCallbackRec
+  temp5 = a CwCallbackRec
+CwDrawingArea(CwBasicWidget)>>#callHandlersFor:with:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = 4
+  arg2 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+  temp1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+CwDrawingArea(CwBasicWidget)>>#callButton1Down:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = an OSInput
+  temp1 = CwButtonEvent[92,83] state=0 time=10556868 button=1
+OSComposite(OSWidget)>>#callHandlers:with:
+  receiver = OSComposite()
+  arg1 = #callButton1Down:
+  arg2 = an OSInput
+DirectedMessage>>#send
+  receiver = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSEventManager class>>#runDeferredMessages
+  receiver = OSEventManager
+  temp1 = true
+  temp2 = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSWidget class>>#readAndDispatch
+  receiver = OSWidget
+  temp1 = true
+  temp2 = true
+CwAppContext>>#readAndDispatch
+  receiver = a CwAppContext
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#messageLoop
+  receiver = AvlRuntimeStartUp
+  temp1 = 10556821
+  temp2 = a CwAppContext
+[optimized] in UIProcess class>>#forkUserInterface
+[] in UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(13/12/2013 10:58:07){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(13/12/2013 10:58:07){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#newProcessOn:stackSize:withArguments:named:
+  receiver = UIProcess:(13/12/2013 10:58:07){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = 1024
+  arg3 = ()
+  arg4 = '(13/12/2013 10:58:07)'
+
+
+Walkback at 11:00:07 on 15/12/2013
+receiver must be a boolean
+[] in AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(15/12/2013 10:03:19){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+EsCompactBlockContextTemplate(Block)>>#valueWithErrorHandler:oldHandler:onReturnDo:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = [] in Block>>#when:do:exitWith:retryReturn:
+  arg2 = nil
+  arg3 = []
+EsCompactBlockContextTemplate(Block)>>#when:do:exitWith:retryReturn:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg3 = [] in Block>>#when:do:
+  arg4 = an Object
+  temp1 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp2 = [] in Block>>#when:do:exitWith:retryReturn:
+  temp3 = nil
+EsCompactBlockContextTemplate(Block)>>#when:do:
+  receiver = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  arg1 = an ExceptionalEventCollection
+  arg2 = [] in EsWindowSystemStartUp class>>#outputWalkback:process:
+  temp1 = an Object
+  temp2 = nil
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#outputWalkback:process:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = UIProcess:(15/12/2013 10:03:19){running,3}
+  temp1 = 'iwzbmser.log'
+  temp2 = -1
+  temp3 = a CfsWriteFileStream
+AvlRuntimeStartUp class(EsImageStartUp class)>>#outputWalkback:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+AvlRuntimeStartUp class>>#reportError:resumable:startBP:
+  receiver = AvlRuntimeStartUp
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  arg3 = 413
+UIProcess(Process)>>#reportError:resumable:
+  receiver = UIProcess:(15/12/2013 10:03:19){running,3}
+  arg1 = 'receiver must be a boolean'
+  arg2 = false
+  temp1 = 413
+[optimized] in ExceptionalEvent class>>#initializeSystemExceptions
+  blockarg1 = Signal on Exception: (ExError) An error has occurred.
+Signal>>#evaluate:
+  receiver = Signal on Exception: (ExError) An error has occurred.
+  arg1 = [] in ExceptionalEvent class>>#initializeSystemExceptions
+ExceptionalEvent>>#applyDefaultHandler:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = Signal on Exception: (ExError) An error has occurred.
+  temp1 = Exception: (ExError) An error has occurred.
+ExceptionalEvent>>#signalWithArguments:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = ('receiver must be a boolean')
+  temp1 = Signal on Exception: (ExError) An error has occurred.
+  temp2 = nil
+ExceptionalEvent>>#signalWith:
+  receiver = Exception: (ExError) An error has occurred.
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#error:
+  receiver = nil
+  arg1 = 'receiver must be a boolean'
+UndefinedObject(Object)>>#mustBeBoolean
+  receiver = nil
+VDEEditPartView>>#openMapEditorOn:
+  receiver = a VDEEditPartView
+  arg1 = (proxy avlName: MGRUP11->MGRUP20)
+  temp1 = nil
+  temp2 = a HptMapMainView
+[] in VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  blockarg1 = (proxy avlName: MGRUP11->MGRUP20)
+OrderedCollection>>#do:
+  receiver = OrderedCollection((proxy avlName: MGRUP11->MGRUP20) )
+  arg1 = [] in VDEEditPartView>>#openEditorsOnConfirmed:
+VDEEditPartView>>#openEditorsOnConfirmed:
+  receiver = a VDEEditPartView
+  arg1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP20) )
+VDEEditPartView>>#defaultActionRequested:
+  receiver = a VDEEditPartView
+  arg1 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = OrderedCollection((proxy avlName: MGRUP11->MGRUP20) )
+  temp2 = nil
+DirectedMessage>>#abrSendWithArguments:
+  receiver = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  temp1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+[] in AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+  blockarg1 = DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil))
+OrderedCollection>>#do:
+  receiver = OrderedCollection(DirectedMessage (a VDEEditPartView, #defaultActionRequested:, (nil)) )
+  arg1 = [] in AbtDependentsCollection>>#signalEventWithArguments:
+AbtDependentsCollection>>#signalEventWithArguments:
+  receiver = an AbtDependentsCollection
+  arg1 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:withArguments:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = (EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+))
+AbtContainerIconTreeView(AbtPart)>>#callHandlers:with:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an AbtDependentsCollection
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+AbtContainerIconTreeView>>#defaultAction:clientData:callData:
+  receiver = an AbtContainerIconTreeView('Container Icon Tree1')
+  arg1 = an EwIconTree
+  arg2 = nil
+  arg3 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = an EwIconTree
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+EwIconTree(EwList)>>#callCallbackList:callData:
+  receiver = an EwIconTree
+  arg1 = OrderedCollection(a CwCallbackRec )
+  arg2 = EwIconListSelectionCallbackData(
+    reason -> 27
+    item -> (proxy avlName: MGRUP11->MGRUP20)
+    itemPosition -> 3
+    selectedItems -> nil
+    selectedItemCount -> 1
+    selectedItemPositions -> (3)
+    widget -> an EwIconTree
+    region -> 104
+)
+  temp1 = nil
+  temp2 = 1
+  temp3 = nil
+  temp4 = nil
+  temp5 = nil
+  temp6 = nil
+EwIconTree(EwList)>>#defaultActionEvent
+  receiver = an EwIconTree
+EwExtendedRangeSelectionMapper(EwSelectionMapper)>>#processButton1DoubleClick
+  receiver = an EwExtendedRangeSelectionMapper
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonDoubleClick:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processButtonPress:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+EwExtendedRangeSelectionMapper(EwListInputMapper)>>#processInputEvent:
+  receiver = an EwExtendedRangeSelectionMapper
+  arg1 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+EwIconTree(EwList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+EwIconTree(EwContainerList)>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+EwIconTree>>#inputEvent:clientData:callData:
+  receiver = an EwIconTree
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = nil
+  arg3 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+CwCallbackRec>>#callWith:callData:
+  receiver = a CwCallbackRec
+  arg1 = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg2 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+CwDrawingArea(CwBasicWidget)>>#callCallbackList:callData:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+  arg2 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+  temp1 = nil
+  temp2 = 3
+  temp3 = a CwCallbackRec
+  temp4 = a CwCallbackRec
+  temp5 = a CwCallbackRec
+CwDrawingArea(CwBasicWidget)>>#callHandlersFor:with:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = 4
+  arg2 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+  temp1 = OrderedCollection(a CwCallbackRec a CwCallbackRec a CwCallbackRec )
+CwDrawingArea(CwBasicWidget)>>#callButton1Down:
+  receiver = CwDrawingArea(Container Icon Tree1_DrawingArea)
+  arg1 = an OSInput
+  temp1 = CwButtonEvent[111,91] state=LockMask time=5683990 button=1
+OSComposite(OSWidget)>>#callHandlers:with:
+  receiver = OSComposite()
+  arg1 = #callButton1Down:
+  arg2 = an OSInput
+DirectedMessage>>#send
+  receiver = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSEventManager class>>#runDeferredMessages
+  receiver = OSEventManager
+  temp1 = true
+  temp2 = DirectedMessage (OSComposite(), #callHandlers:with:, (#callButton1Down: an OSInput))
+OSWidget class>>#readAndDispatch
+  receiver = OSWidget
+  temp1 = true
+  temp2 = true
+CwAppContext>>#readAndDispatch
+  receiver = a CwAppContext
+AvlRuntimeStartUp class(EsWindowSystemStartUp class)>>#messageLoop
+  receiver = AvlRuntimeStartUp
+  temp1 = 5683912
+  temp2 = a CwAppContext
+[optimized] in UIProcess class>>#forkUserInterface
+[] in UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(15/12/2013 10:03:19){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#executeBlock:withArguments:
+  receiver = UIProcess:(15/12/2013 10:03:19){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = ()
+UIProcess(Process)>>#newProcessOn:stackSize:withArguments:named:
+  receiver = UIProcess:(15/12/2013 10:03:19){running,3}
+  arg1 = [] in UIProcess class>>#forkUserInterface
+  arg2 = 1024
+  arg3 = ()
+  arg4 = '(15/12/2013 10:03:19)'
